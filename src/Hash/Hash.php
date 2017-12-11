@@ -76,7 +76,7 @@ class Hash extends Algo
     /**
      * clearCache
      *
-     * The the cache of this class.
+     * Clear the cache of this class.
      *
      * @return void
      */
