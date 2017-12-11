@@ -68,7 +68,7 @@ class Hash extends Algo
             return self::$algo;
         }
         throw new InvalidOperationException(sprintf(
-            '"%s" can not find n algorithm to return.',
+            '"%s" can not find an algorithm to return.',
             __METHOD__
         ));
     }
