@@ -57,7 +57,7 @@ class Hash extends Algo
      *
      * Get the last supported algorithm.
      *
-     * @throws InvalidOperationException If their is no algorithm
+     * @throws InvalidOperationException If there is no algorithm
      *     to return.
      *
      * @return string The last supported algorithm used.
