@@ -10,7 +10,9 @@ namespace Genial\Encryption\Hash;
 use Genial\Encryption\Algo;
 use Genial\Encryption\Exception\InvalidAlgorithmException;
 use Genial\Encryption\Exception\InvalidOperationException;
+use Genial\Encryption\Exception\UnexpectedValueException;
 use Genial\Encryption\Utils;
+use Genial\Validator\String\Empty;
 
 /**
  * Hash
@@ -41,13 +43,24 @@ class Hash extends Algo
      *
      * @throws InvalidAlgorithmException If the algorithm is not supported
      *     or if the algorithm does not exist.
+     * @throws UnexpectedValueException If the data provided is empty
      *
      * @return string The hash from the requested data.
      */
     public static function cipher(string $algo, $data = null, $rawOutput = self::RAW_OUTPUT)
     {
+        $validator = new Empty([
+            'data' => 'mixed'
+        ]);
         if (self::supported($algo, REQUEST_HASH_ALGOS))
         {
+            if ($validator->empty($data))
+            {
+                throw new UnexpectedValueException(sprintf(
+                    '"%s" expects the data provided to not be empty.',
+                    __METHOD__
+                ));
+            }
             self::$algo = $algo;
             $data = Utils::convert($data);
             $rawOutput = (bool) $rawOutput;
