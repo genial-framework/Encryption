@@ -44,7 +44,7 @@ class Hash extends Algo
      *
      * @return string The hash from the requested data.
      */
-    public static function cipher(string $algo, $data = null, $rawOutput = RAW_OUTPUT)
+    public static function cipher(string $algo, $data = null, $rawOutput = self::RAW_OUTPUT)
     {
         if (self::supported($algo, REQUEST_HASH_ALGOS))
         {
