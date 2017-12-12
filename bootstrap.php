@@ -5,5 +5,6 @@
  * @license   <https://github.com/Genial-Framework/Encryption/blob/master/LICENSE> New BSD License
  */
 
-define('REQUEST_HASH_ALGOS', 0);
-define('REQUEST_HASH_HMAC_ALGOS', 1);
+define('REQUEST_ALL', 0);
+define('REQUEST_HASH_ALGOS', 1);
+define('REQUEST_HASH_HMAC_ALGOS', 2);
