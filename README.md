@@ -1,9 +1,9 @@
-[![Coveralls github branch](https://img.shields.io/coveralls/github/Genial-Framework/MongoDB/master.svg?style=flat-square)](https://coveralls.io/github/Genial-Framework/MongoDB?branch=master) [![Travis](https://img.shields.io/travis/Genial-Framework/MongoDB.svg?style=flat-square)](https://travis-ci.org/Genial-Framework/MongoDB)
+[![Coveralls github branch](https://img.shields.io/coveralls/github/Genial-Framework/Encryption/master.svg?style=flat-square)](https://coveralls.io/github/Genial-Framework/Encryption?branch=master) [![Travis](https://img.shields.io/travis/Genial-Framework/Encryption.svg?style=flat-square)](https://travis-ci.org/Genial-Framework/Encryption)
 
 ### Genial/Encryption
 
 -------
-This dependent provides tools to securely hash passwords, encrypt sensitive data using the common algorithms such as TripleDES, RSA, Blowfish, Twofish, and many more. This dependent only supports PHP 7 or higher so if you are using PHP 5.* please consider upgrading to the latest stable version of php which is PHP 7.2.0. This dependent is open to anybody that wants to contribute, just fork the repository and submit a pull request.
+This dependent provides tools to encrypt sensitive data using the common algorithms such as TripleDES, RSA, Blowfish, Twofish, and many more. This dependent also supported multiple hashing functions to securely one-way hash text/password etc. This dependent only supports PHP 7 or higher so if you are using PHP 5.* please consider upgrading to the latest stable version of php which is PHP 7.2.0. This dependent is open to anybody that wants to contribute, just fork the repository and submit a pull request.
 
 ### Installation
 
