@@ -17,8 +17,15 @@ use Genial\Encryption\Utils;
  */
 class Hash extends Algo
 {
+    /**
+     * @const bool|false RAW_OUTPUT Weither to output the raw data by
+     *     default.
+     */
+    const RAW_OUTPUT = false;
     
-    /** @var string|null $algo The last supported algorithm used. */
+    /**
+     * @var string|null $algo The last supported algorithm used.
+     */
     protected static $algo = null;
     
     /**
