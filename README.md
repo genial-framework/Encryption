@@ -3,7 +3,7 @@
 ### Genial/Encryption
 
 -------
-This dependent provides cryptographic tools to securely hash passwords, encrypt sensitive data using the common algorithms such as RSA, Blowfish, Twofish, and many more. This dependent only supports PHP 7 or higher so if you are using PHP 5.* please consider upgrading to the latest stable version of php which is PHP 7.2.0. This dependent is open to anybody that wants to contribute, just fork the repository and submit a pull request.
+This dependent provides tools to securely hash passwords, encrypt sensitive data using the common algorithms such as TripleDES, RSA, Blowfish, Twofish, and many more. This dependent only supports PHP 7 or higher so if you are using PHP 5.* please consider upgrading to the latest stable version of php which is PHP 7.2.0. This dependent is open to anybody that wants to contribute, just fork the repository and submit a pull request.
 
 ### Installation
 
