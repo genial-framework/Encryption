@@ -1,6 +1,7 @@
-[![Coveralls github branch](https://img.shields.io/coveralls/github/Genial-Framework/Encryption/master.svg?style=flat-square)](https://coveralls.io/github/Genial-Framework/Encryption?branch=master) [![Travis](https://img.shields.io/travis/Genial-Framework/Encryption.svg?style=flat-square)](https://travis-ci.org/Genial-Framework/Encryption)
+### Genial\Encryption
 
-## Genial\Encryption
+-------
+[![Coveralls github branch](https://img.shields.io/coveralls/github/Genial-Framework/Encryption/master.svg?style=flat-square)](https://coveralls.io/github/Genial-Framework/Encryption?branch=master) [![Travis](https://img.shields.io/travis/Genial-Framework/Encryption.svg?style=flat-square)](https://travis-ci.org/Genial-Framework/Encryption)
 
 ### Installation
 
